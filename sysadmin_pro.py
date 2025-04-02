@@ -81,7 +81,7 @@ def mostrar_ajuda():
 
 # Validar color hexadecimal
 def validar_hex_color(codi):
-    if len(codi) != 6:
+    if len(codi) != 8:
         return False
     for caracter in codi:
         if caracter not in "0123456789ABCDEFabcdef":
