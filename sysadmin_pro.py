@@ -9,8 +9,7 @@ import logging
 import re
 
 # Configuració del registre
-logging.basicConfig(filename="log.txt", level=logging.DEBUG,
-                    format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(filename="log.txt", level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Funció per llistar fitxers
 def llistar_fitxers():
