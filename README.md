@@ -19,17 +19,17 @@ El programa guarda un registre d'activitats i errors en el fitxer `log.txt`.
 
 Executar el programa amb interfície gràfica:
 ```sh
-python script.py
+python3 sysadmin_pro.py
 ```
 
-Eliminar fitxers antics (més de 7 dies):
+Eliminar fitxers antics (més de 30 dies):
 ```sh
-python script.py -t 7
+python3 sysadmin_pro.py -t 30
 ```
 
 Canviar el color de fons a blau:
 ```sh
-python script.py -b 0000FF
+python3 sysadmin_pro.py -b 0000FF
 ```
 
 Activar mode "hacker":
