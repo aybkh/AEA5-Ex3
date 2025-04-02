@@ -34,4 +34,4 @@ python3 sysadmin_pro.py -b 0000FF
 
 Activar mode "hacker":
 ```sh
-python script.py hackeao
+python sysadmin_pro.py hackeao
